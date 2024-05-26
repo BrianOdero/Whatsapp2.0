@@ -1,0 +1,1 @@
+This is an implementation of the backend logic o the whatsapp clone. Ive added aws amplify backend login, signup and database mides that will be displayed on the contact screen upon running the applicationt
