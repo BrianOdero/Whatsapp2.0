@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Whatsapp_2.0",
-    "slug": "Whatsapp_2.0",
+    "slug": "whatsapp20",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Whatsapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.Whatsapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39fabb83-fe8f-4fd2-aa90-25bab3318d55"
+      }
+    },
+    "owner": "brianodero"
   }
 }

@@ -11,10 +11,10 @@ const ContactListItem = ({user}) =>{
 
     const navigation = useNavigation();
 
+
    return(
     <Pressable onPress = {() => {}} style = {styles.containor}>
         <Image source={{ uri: user.image}} style = {styles.Image}/>
-
         <View style= {styles.content}>
             <Text numberOfLines={1} style = {styles.name}>
                 {user.name}
@@ -22,11 +22,7 @@ const ContactListItem = ({user}) =>{
             <Text numberOfLines={2} style={styles.subTitle}>
                 {user.status}
             </Text>
-        </View>
-
-
-        
-            
+        </View>      
     </Pressable>
    )
 }
@@ -54,6 +50,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     content: {
+        color: "black",
         flexDirection: "column"
     },
     subTitle: {
